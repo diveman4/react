@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import Hello from './Hello';
 import Message from './Massage';
-import Counter from './State';
+import Counter from './reducer';
 import Parent from './ContainerSample';
 import reportWebVitals from './reportWebVitals';
 
