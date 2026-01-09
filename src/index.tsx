@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import Hello from './Hello';
 import Message from './Massage';
-import Counter from './reducer';
+import Counter from './Reducer';
+import Fizz from './Parent';
 import Parent from './ContainerSample';
 import reportWebVitals from './reportWebVitals';
 
@@ -16,6 +17,7 @@ root.render(
     <Hello />
     <Parent />
     <Counter initialValue={1}/>
+    <Fizz isFizz={false}/>
   </React.StrictMode>
 );
 

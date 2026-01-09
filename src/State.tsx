@@ -4,8 +4,10 @@ type CounterProps = {
     initialValue: number
 }
 
+//Counetコンポーネントを定義
 const Counter = (props:CounterProps) => {
     const {initialValue} = props
+    //useStateの戻り値は配列
     const [count, setCount] = useState(initialValue)
 
     return(
