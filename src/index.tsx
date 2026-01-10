@@ -17,7 +17,7 @@ root.render(
     <Hello />
     <Parent />
     <Counter initialValue={1}/>
-    <Fizz isFizz={false}/>
+    {/* <Fizz isFizz={false}/> */}
   </React.StrictMode>
 );
 
